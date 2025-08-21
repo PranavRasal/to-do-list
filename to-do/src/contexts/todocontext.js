@@ -7,8 +7,8 @@ export const todoContext = createContext({
     completed : false,
 }],
 addtodos:(todo)=>{},
-deletetodo:(id)=>{},
-edittodo:(id,todo)=>{},
+deleteTodo:(id)=>{},
+editTodo:(id,todo)=>{},
 completTodo:(id)=>{}
 
 });
